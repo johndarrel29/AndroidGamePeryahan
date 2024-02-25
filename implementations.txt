@@ -1,0 +1,20 @@
+under "Gradle Scripts" sa "build.gradle.kts (Module :app)" paki-paste 'to:
+
+--------------------------------------------------------
+
+buildFeatures{
+        viewBinding = true
+    }
+
+---------------------------------------------------------
+
+then sa dependencies:
+
+---------------------------------------------------------
+
+implementation("androidx.viewpager2:viewpager2:1.0.0")
+implementation("com.makeramen:roundedimageview:2.3.0")
+
+---------------------------------------------------------
+
+then pakipindot yung "sync" sa taas :>
