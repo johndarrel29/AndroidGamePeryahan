@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bottom_games"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Games"
+        android:icon="@drawable/baseline_games_24"/>
+    <item
+        android:id="@+id/bottom_credits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Credits"
+        android:icon="@drawable/baseline_accessibility_new_24"/>
+    <item
+        android:id="@+id/bottom_about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="About"
+        android:icon="@drawable/baseline_info_24"/>
+</menu>
